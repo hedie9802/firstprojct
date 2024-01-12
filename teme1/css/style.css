@@ -1,0 +1,214 @@
+@import url(./reset.css);
+@font-face {
+    font-family: iranyekan;
+    src: url(./../fonts/iranyekan.woff) format(woff);
+}
+body{
+    font-family: iranyekan;
+    background-attachment: fixed;
+}
+/* header */
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(13, 13, 13);
+    color: #fff;
+    font-size: small;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.fa{
+    color: gold;
+}
+/* secondheader */
+.secondhed{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(249, 249, 249);
+    color:rgb(13, 13, 13);
+    align-items: center;
+    padding: 10px 40px;
+}
+.socialmedia , .brand{
+    width: 20%;
+}
+.socialmedia .fab{
+    padding: 0 10px;
+    font-size:larger;
+    color: gold;
+}
+/* menu */
+.menu{
+    width: 80%;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    padding: 0 20px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid gold;
+    border-radius: 25px;
+}
+/* logo */
+.brand .fa{
+    color: gold;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+/* start section */
+.background img{
+    width: 100%;
+    height: auto;
+}
+.card-in-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 350px;
+    right: 45%;
+    margin-left: 80px;
+}
+.card-in-section p{
+    margin-top: 20px;
+    font-size:small;
+}
+.relation{
+    display: flex;
+    margin-top: 20px;
+}
+.relation a{
+    margin-left: 25px;
+    padding: 10px;
+    border: 2px solid gold;
+}
+.relation a:hover{
+    background: rgb(128,104,2);
+    background: linear-gradient(90deg, rgba(128,104,2,1) 16%, rgba(255,215,0,1) 100%);
+    border: none;
+    color: #fff;
+}
+/* start section2 */
+.infosection{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(249, 249, 249);
+    margin-top: 50px;
+}
+.onvan{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.infodata-in-section{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.dash{
+    text-align: center;
+}
+.infodata-in-section p{
+    font-size:medium;
+}
+.dash{
+    width: 22%;
+}
+.infodata-in-section , .infodata-in-footer .fa{
+    font-size: 40px;
+}
+.aboutsection{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color:rgb(244, 243, 243);
+    padding: 40px 0;
+    padding-right: 90px;
+}
+.textsection{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.picsection{
+    display: flex;
+    width: 60%;
+    padding-left: 50px;
+    justify-content: end;
+}
+.picsection img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px;
+}
+.textsection span{
+    font-weight: bolder;
+    font-size: large;
+}
+.textsection p{
+    font-size: small;
+}
+/* start team us section */
+.teamussection{
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    padding: 30px 0;
+}
+.text-teamsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+.teampersonsection{
+    display: flex;
+    justify-content: space-between;
+}
+.team{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 39px;
+}
+.teampersonsection img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid gold;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    top: 150px;
+    flex-direction: column;
+    background-color: black;
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+
+}
+.infodata-in-footer{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    color: #fff;
+}
